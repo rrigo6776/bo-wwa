@@ -19,3 +19,21 @@
     flex-wrap: wrap;
     padding: 0px 30px;
 }
+
+.first {
+    color: white;
+    font-size: 40px;
+    margin: 42px;
+    text-align: left;
+    width: 50%;
+}
+
+.second {
+    color: white; 
+    font-size: 40px;
+    text-align: right;
+    width: 45%;
+    position: absolute;
+    right: 40px;
+}
+
