@@ -1,7 +1,21 @@
-.name {
-    font-style: italic;
+* {
+    background-color: black;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 .name {
+    font-style: italic;
     font-size: 40px;
+    width: 100%;
+    padding: 30px;
+    color: white;
+}
+
+.baby {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 0px 30px;
 }
