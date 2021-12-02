@@ -22,18 +22,34 @@
 
 .first {
     color: white;
-    font-size: 40px;
-    margin: 42px;
-    text-align: left;
-    width: 50%;
+    font-size: 25px;
+    padding: 42px;
+    text-align: center;
+    width: 100%;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .second {
     color: white; 
     font-size: 40px;
-    text-align: right;
+    padding: 0px 0px 0px 42px;
+    text-align: left;
     width: 45%;
-    position: absolute;
     right: 40px;
 }
 
+.third {
+    color: white;
+    padding: 42px 42px 0px 0px;
+    width: 50%;
+    font-size: 40px;
+    text-align: right;
+    position: absolute;
+    right: 0px;
+}
+
+@media screen and (max-width: 980px) {
+    .first {
+        font-size: 10px;
+    }
+}
