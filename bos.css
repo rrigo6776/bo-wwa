@@ -57,6 +57,7 @@
 @media screen and (max-width: 980px) {
     .first {
         font-size: 40px;
-        
+        color: white;
+
     }
 }
