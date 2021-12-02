@@ -48,6 +48,12 @@
     right: 0px;
 }
 
+@media screen and (max-width: 1440px) {
+    .first {
+        font-size: 40px;
+    }
+}
+
 @media screen and (max-width: 980px) {
     .first {
         font-size: 10px;
