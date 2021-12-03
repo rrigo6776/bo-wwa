@@ -26,7 +26,6 @@
     padding: 42px;
     text-align: center;
     width: 100%;
-    font-family: "Times New Roman", Times, serif;
 }
 
 .second {
@@ -36,6 +35,8 @@
     text-align: left;
     width: 45%;
     right: 40px;
+    font-style: italic;
+    
 }
 
 .third {
@@ -48,17 +49,14 @@
     right: 0px;
 }
 
-@media screen and (max-width: 1440px) {
-    .first {
-        font-size: 40px;
-    }
-}
-
 @media screen and (max-width: 980px) {
     .first {
-        font-size: 40px;
+        font-size: 12px;
         color: white;
         font-style: italic;
+    }
 
+    .name {
+        font-style: italic;
     }
 }
