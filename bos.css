@@ -58,6 +58,7 @@
     .first {
         font-size: 40px;
         color: white;
+        font-style: italic;
 
     }
 }
