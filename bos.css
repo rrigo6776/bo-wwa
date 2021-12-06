@@ -47,7 +47,7 @@
 
 .third {
     color: white;
-    padding: 470px 22px 0px 0px;
+    padding: 380px 22px 0px 0px;
     width: 50%;
     font-size: 40px;
     text-align: right;
@@ -56,42 +56,49 @@
 
 .fourth {
     color: white;
-    padding: 0px 0px 0px 22px;
-    font-size: 40px;
+    padding: 0px 0px 0px 62px;
+    font-size: 69px;
     text-align: left;
-    width: 47%;
+    width: 48%;
     left: 0px;
 }
 
 @media screen and (max-width: 1440px) {
 
     .name {
-        font-size: 70px;
+        font-size: 73px;
     }
+
     .first {
         font-size: 50px;
     }
 
     .second, .third {
         font-size: 60px;
+        width: 47%;
     }
 }
 
 @media screen and (max-width: 980px) {
+    .name {
+        font-size: 50px;
+    }
+
     .first {
-        font-size: 12px;
+        font-size: 32.5px;
         color: white;
     }
 
     .second, .third {
         font-size: 45px;
+        padding: 0px;
     }
 
     .second {
-        width: 49%;
+        width: 47%;
     }
 
     .third {
-        padding: 320px 22px 0px 0px;
+        padding: 320px 0px 0px 0px;
     }
 }
