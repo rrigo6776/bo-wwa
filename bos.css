@@ -121,3 +121,9 @@
         height: 500px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .second{
+        font-size: 10px;
+    }
+}
