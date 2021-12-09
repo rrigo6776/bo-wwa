@@ -88,7 +88,7 @@
 @media screen and (max-width: 980px) {
     .name {
         font-size: 50px;
-        color:red;
+        color:blue;
     }
 
     .first {
@@ -142,10 +142,10 @@
 
 }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 900px) {
     .name {
         font-size: 50px;
-        color:purple;
+        color:yellow;
     }
 
     .first {
