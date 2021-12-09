@@ -144,7 +144,7 @@
 @media screen and (max-width: 980px) {
     .name {
         font-size: 50px;
-        color: green;
+        color: blue;
     }
 
     .first {
@@ -201,7 +201,7 @@
 @media screen and (max-width: 780px) {
     .name {
         font-size: 50px;
-        color: blue;
+        color: green;
     }
 
     .first {
