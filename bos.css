@@ -84,11 +84,14 @@
     padding: 0px 810px 0px 0px;
 }
 
-
 @media screen and (max-width: 980px) {
     .name {
         font-size: 50px;
-        color:blue;
+        color: red;
+    }
+
+    .edits {
+        display: flex;
     }
 
     .first {
@@ -129,125 +132,6 @@
 
     .space {
     padding: 0px 0px 0px 32px;
-    }
-
-    .third {
-    font-size: 36px;
-    padding: 0px 32px 0px 20px;
-    }
-
-    .layout2 {
-        padding: 26px 0px 0px 0px;
-    }
-
-}
-
-@media screen and (max-width: 900px) {
-    .name {
-        font-size: 50px;
-        color:yellow;
-    }
-
-    .first {
-        font-size: 32.5px;
-        color: white;
-    }
-
-    .third {
-        display: flex;
-        font-size: 38px;
-        padding: 0px 30px 4px 20px;
-        width: 47%;
-    }
-
-    .second, .fourth {
-        font-size: 17px;
-        width: 97%;
-        text-align: left;
-        padding: 0px 0px 0px 30px;
-    }
-
-    .layout {
-        padding: 0px 0px 52px 0px;
-    }
-
-    .laaamb {
-        width: 250px;
-    }
-
-    .lambq {
-        padding: 0px 115px 0px 0px;
-    }
-
-    .cat {
-        width: 500px;
-        height: 500px;
-    }
-
-    .space {
-    padding: 0px 0px 0px 32px;
-    }
-
-    .third {
-    font-size: 36px;
-    padding: 0px 32px 0px 20px;
-    }
-
-    .layout2 {
-        padding: 26px 0px 0px 0px;
-    }
-
-}
-
-@media screen and (max-width: 575px) {
-    .name {
-        font-size: 50px;
-        color: Pink;
-    }
-
-    .first {
-        font-size: 32.5px;
-        color: white;
-    }
-
-    .third {
-        display: flex;
-        font-size: 38px;
-        padding: 0px 30px 4px 20px;
-        width: 47%;
-    }
-
-    .second, .fourth {
-        font-size: 17px;
-        width: 97%;
-        text-align: left;
-        padding: 0px 0px 0px 30px;
-    }
-
-    .layout {
-        padding: 0px 0px 52px 0px;
-    }
-
-    .laaamb {
-        width: 250px;
-    }
-
-    .lambq {
-        padding: 0px 115px 0px 0px;
-    }
-
-    .cat {
-        width: 500px;
-        height: 500px;
-    }
-
-    .space {
-    padding: 0px 0px 0px 32px;
-    }
-
-    .third {
-    font-size: 36px;
-    padding: 0px 32px 0px 20px;
     }
 
     .layout2 {
