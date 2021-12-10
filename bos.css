@@ -86,8 +86,8 @@
 
 @media screen and (max-width: 980px) {
     .name {
-        font-size: 50px;
-        color: red;
+        font-size: 47px;
+        color: Yellow;
     }
 
     .edits {
@@ -107,7 +107,6 @@
     }
 
     .second, .fourth {
-        font-size: 17px;
         width: 97%;
         text-align: left;
         padding: 0px 0px 0px 30px;
