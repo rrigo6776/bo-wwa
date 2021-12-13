@@ -51,6 +51,7 @@
     font-size: 40px;
     text-align: left;
     padding: 52px 0px 0px 42px;
+
 }
 
 .layout {
@@ -84,57 +85,113 @@
     padding: 0px 810px 0px 0px;
 }
 
-@media screen and (max-width: 980px) {
-    .name {
-        font-size: 47px;
-        color: Yellow;
-    }
+@media screen and (max-width: 480px) {
 
-    .edits {
-        display: flex;
-    }
+  .name {
+       font-size: 20px;
+       padding: 10px;
+  }
 
-    .first {
-        font-size: 32.5px;
-        color: white;
-    }
+  .lambq {
+       padding: 0px 70px 0px 0px;
+  }
 
-    .third {
-        display: flex;
-        font-size: 38px;
-        padding: 0px 30px 4px 20px;
-        width: 47%;
-    }
+  .laaamb {
+    width: 90px
+  }
 
-    .second, .fourth {
-        width: 97%;
-        text-align: left;
-        padding: 0px 0px 0px 30px;
-    }
+  .baby {
+    width: 100%;
+    padding: 0px 10px;
+  }
 
-    .layout {
-        padding: 0px 0px 52px 0px;
-    }
+  .first {
+       font-size: 14px;
+       font-style: oblique;
+       padding: 13px;
+  }
 
-    .laaamb {
-        width: 250px;
-    }
+  .layout {
+    padding: 0px;
+  }
 
-    .lambq {
-        padding: 0px 115px 0px 0px;
-    }
+  .second {
+       padding: 0px 10px 10px 10px;
+       font-size: 17px;
+  }
 
-    .cat {
-        width: 500px;
-        height: 500px;
-    }
+  .space {
+       padding: 0px 0px 0px 10px;
+  }
 
-    .space {
-    padding: 0px 0px 0px 32px;
-    }
+  .cat {
+       width: 210px;
+       height: 210px;
+  }
 
-    .layout2 {
-        padding: 26px 0px 0px 0px;
-    }
+  .third {
+       padding: 0px 10px 0px 10px;
+       font-size: 16px;
+  }
 
+  .fourth {
+       padding: 12px 9px 0px 10px;
+       font-size: 17px;
+ }
 }
+
+@media screen and (max-width: 380px) {
+
+  .name {
+       font-size: 16px;
+       padding: 10px;
+  }
+
+  .lambq {
+       padding: 0px 97px 0px 0px;
+  }
+
+  .laaamb {
+    width: 80px
+  }
+
+  .baby {
+    width: 100%;
+    padding: 0px 10px;
+  }
+
+  .first {
+       font-size: 14px;
+       font-style: oblique;
+       padding: 10px;
+  }
+
+  .layout {
+    padding: 0px;
+  }
+
+  .second {
+       padding: 0px 10px 10px 10px;
+       font-size: 16px;
+  }
+
+  .space {
+       padding: 0px 0px 0px 10px;
+  }
+
+  .cat {
+       width: 190px;
+       height: 190px;
+  }
+
+  .third {
+       padding: 0px 10px 0px 10px;
+       font-size: 15px;
+  }
+
+  .fourth {
+       padding: 7px 0px 0px 10px;
+       font-size: 16px;
+ }
+}
+
