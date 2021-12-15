@@ -90,7 +90,7 @@
   .name {
     color: red;
     font-size: 20px;
-    padding: 10px;
+    padding: 8px;
   }
 
   .lambq {
@@ -118,9 +118,8 @@
 
   .second {
        padding: 0px 10px 10px 10px;
-       font-size: 17px;
-       color: pink;
-  }
+       font-size: 17px                                              
+   }
 
   .space {
        padding: 0px 0px 0px 10px;
@@ -141,60 +140,3 @@
        font-size: 17px;
  }
 }
-
-@media screen and (max-width: 380px) {
-
-  .name {
-       font-size: 16px;
-       padding: 10px;
-  }
-
-  .lambq {
-       padding: 0px 97px 0px 0px;
-  }
-
-  .laaamb {
-    width: 80px
-  }
-
-  .baby {
-    width: 100%;
-    padding: 0px 10px;
-  }
-
-  .first {
-       font-size: 14px;
-       font-style: oblique;
-       padding: 10px;
-  }
-
-  .layout {
-    padding: 0px;
-  }
-
-  .second {
-       padding: 0px 10px 10px 10px;
-       font-size: 16px;
-       color: yellowgreen;
-  }
-
-  .space {
-       padding: 0px 0px 0px 10px;
-  }
-
-  .cat {
-       width: 190px;
-       height: 190px;
-  }
-
-  .third {
-       padding: 0px 10px 0px 10px;
-       font-size: 15px;
-  }
-
-  .fourth {
-       padding: 7px 0px 0px 10px;
-       font-size: 16px;
- }
-}
-
